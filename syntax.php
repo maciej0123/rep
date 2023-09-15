@@ -18,8 +18,7 @@
             <?='Funkcja' . ' 2'; ?>
  
             <?php
-            // komentarz 1 1
-            
+            // komentarz 1
             /* komentarz 2 */
             ?>
 
