@@ -7,13 +7,10 @@
     
     <body>
             <?php
-             $title='123'
-             echo $title;
-            ?>
-            <?php echo ('Tu funkcja echo'); ?><br>
-            <?php echo 'Tu funkcja echo'; ?><br>
-            <?php echo 'Tu' . ' funkcja' . ' echo'; ?><br>
-            <?php echo ('Tu' . ' funkcja' . ' echo'); ?><br><br>
+             $title="Strona główna";
+            ?> 
 
+            <h1> <?= $title ?> </h1>
+            
     </body>
 </html>
