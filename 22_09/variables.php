@@ -8,6 +8,7 @@
 <body>
 
     <?php
+
         $br = "<br>";
         $int = 5985;
         $float = 10.365;
@@ -16,6 +17,8 @@
         define("STALA_1", 1200);
         define('STALA_2', "tekst");
 
+        echo $br;
+        
         echo $int; echo $br; 
         echo $float; echo $br;
         echo $boolean; echo $br;
@@ -29,15 +32,14 @@
         echo $br;
 
         print(STALA_1); echo $br;
-        print(STALA_2); echo $br; echo $br;
+        print(STALA_2); echo $br;
 
+        echo $br;
         
         var_export(STALA_1); echo $br;
         var_export(STALA_2); echo $br;
 
     ?>
-
-    
 
 </body>
 </html>
