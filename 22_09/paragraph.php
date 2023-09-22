@@ -34,18 +34,5 @@ p{      color: #336ee1; }
         ?>
     </div>
 
-
-    <br><br>
-    <?php
-        $poczatek = 'Ala ma';
-        $liczba = 123;
-        $koniec = ' koty';
-        $br = "<br>";
-
-        echo '$poczatek $liczba $koniec'; echo $br;
-        echo "$poczatek $liczba $koniec"; echo $br;
-    ?>
-
-
 </body>
 </html>
