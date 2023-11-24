@@ -11,7 +11,7 @@
             $plusy = rand(0, 10);
             echo "Numer wylosowany: $plusy <br>";
             if ($plusy == 0 || $plusy == 10) {
-                echo 'Wartośc poza zakresem <0, 10>';
+                echo 'Wartośc poza zakresem <1, 9>';
             } else {
                 echo str_repeat("+", $plusy);
             }
