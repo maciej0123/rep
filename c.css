@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(120deg, #ef4136, #e7900d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+span {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.rejestracja {
+    padding: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(240deg, #ef4136, #fbb040);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.pola {
+    background-color: #f4f4f4;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pole-1,
+.pole-2,
+.pole-3,
+.pole-4,
+.pole-5,
+.pole-6 {
+    margin-bottom: 15px;
+}
+
+.imie,
+.nazwisko,
+.telefon,
+.email,
+.dob,
+.haslo {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.przycisk {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(240deg, #ef4136, #fbb040);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(120deg, #ef4136, #fbb040);
+}
